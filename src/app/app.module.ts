@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { CategoriesComponent } from './viewes/categories/categories.component';
+import { TasksComponent } from './viewes/tasks/tasks.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    TasksComponent
   ],
   imports: [
     BrowserModule,
