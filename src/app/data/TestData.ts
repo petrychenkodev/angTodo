@@ -43,6 +43,54 @@ export class TestData {
             completed: false,
             category: TestData.categories[1],
             date: new Date('2020-10-10')
-        }
+        },
+        {
+            id: 4,
+            title: 'task 2',
+            priority: TestData.priorities[0],
+            completed: false,
+            category: TestData.categories[0],
+            date: new Date('2020-10-10')
+        },
+        {
+            id: 5,
+            title: 'task 2',
+            priority: TestData.priorities[0],
+            completed: false,
+            category: TestData.categories[5],
+            date: new Date('2020-10-10')
+        },
+        {
+            id: 6,
+            title: 'task 2',
+            priority: TestData.priorities[0],
+            completed: false,
+            category: TestData.categories[2],
+            date: new Date('2020-10-10')
+        },
+        {
+            id: 7,
+            title: 'task 2',
+            priority: TestData.priorities[0],
+            completed: false,
+            category: TestData.categories[3],
+            date: new Date('2020-10-10')
+        },
+        {
+            id: 8,
+            title: 'task 2',
+            priority: TestData.priorities[0],
+            completed: false,
+            category: TestData.categories[4],
+            date: new Date('2020-10-10')
+        },
+        {
+            id: 9,
+            title: 'task 2',
+            priority: TestData.priorities[0],
+            completed: false,
+            category: TestData.categories[5],
+            date: new Date('2020-10-10')
+        },
     ];
 }
